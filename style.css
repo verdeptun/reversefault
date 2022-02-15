@@ -1,0 +1,54 @@
+#galery{
+    /*background-color: rgb(231, 149, 48);*/
+    padding: 20px;
+}
+body{
+    padding: 100px;
+}
+.container{
+    display:flex;
+}
+
+.galeria{
+    float:right;
+
+    padding :50px;
+}
+p{
+    font-size: 20px;
+    font-family:sans-serif
+}
+h1{
+    font-size: 50px;
+}
+p1{
+    font-size: 15px;
+    font-family:sans-serif
+}
+p2{
+    font-size: 15px;
+    font-family:sans-serif
+}
+p3{
+    font-size: 15px;
+    font-family:sans-serif
+}
+.imagen{
+    background-color: rgba(247, 243, 243, 0.993);
+    border:1px solid rgb(72, 144, 156);
+}
+.imagen:first-child {
+        padding-bottom:0px;
+        padding-right:40px;
+        float:right
+        
+}
+
+.imagen:nth-child(3){
+    padding-bottom: 0px; 
+}
+
+img{
+    padding:50px;
+    width: 400px;
+}
